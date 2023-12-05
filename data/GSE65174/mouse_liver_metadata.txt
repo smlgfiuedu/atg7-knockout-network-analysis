@@ -1,0 +1,7 @@
+SampleName,Treatment,SampleNumber
+GSM1588595,Atg7flox_flox_mice_liver,1
+GSM1588596,Atg7flox_flox_mice_liver,2
+GSM1588597,Atg7flox_flox_mice_liver,3
+GSM1588598,Atg7flox_flox_Alb_Cre_mice_liver,4
+GSM1588599,Atg7flox_flox_Alb_Cre_mice_liver,6
+GSM1588600,Atg7flox_flox_Alb_Cre_mice_liver,7

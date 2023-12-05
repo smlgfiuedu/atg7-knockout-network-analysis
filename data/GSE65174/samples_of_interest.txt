@@ -1,0 +1,6 @@
+GSM1588595,Atg7flox/flox mice liver,1  
+GSM1588596,Atg7flox/flox mice liver,2  
+GSM1588597,Atg7flox/flox mice liver,3  
+GSM1588598,Atg7flox/flox; Alb-Cre mice liver,4  
+GSM1588599,Atg7flox/flox; Alb-Cre mice liver,6  
+GSM1588600,Atg7flox/flox; Alb-Cre mice liver,7  

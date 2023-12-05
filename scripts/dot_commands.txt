@@ -1,0 +1,20 @@
+dot -Tsvg -v mouse.liver.1h.ma.tg.highlight.2023.08.02.17.34.22.txt -o mouse.liver.1h.ma.network.2023.08.02.17.34.22.svg
+
+dot -Tsvg -v mouse.liver.4h.ma.tg.highlight.2023.08.02.17.27.01.txt -o mouse.liver.4h.ma.network.2023.08.02.17.27.01.svg
+
+dot -Tsvg -v mouse.liver.16h.ma.tg.highlight.2023.08.02.17.29.02.txt -o mouse.liver.16h.ma.network.2023.08.02.17.29.02.svg
+
+dot -Tsvg -v mouse.liver.32h.ma.tg.highlight.2023.08.02.17.23.44.txt -o mouse.liver.32h.ma.network.2023.08.02.17.23.44.svg
+
+
+## color coded
+dot -Tsvg -v ./raw/mouse.liver.32h.ma.tg.highlight-interestgenes.2023.08.02.17.23.44.txt -o ./figures/mouse.liver.interestgenes.svg
+
+dot -Tsvg -v ./raw/mouse_liver_subset.dot.txt -o ./figures/mouse.liver.interestgenes.subnet.svg
+
+dot -Tsvg -v ./raw/mouse_liver_subset.dot.txt -o ./figures/mouse.liver.subnet.svg
+
+dot -Tsvg -v ./raw/mouse_liver_subset_annotated.txt -o ./figures/mouse.liver.subnet.annotated.svg
+
+## Mt1 and Mt2
+dot -Tsvg -v ./raw/mouse_liver_subset_mt1_mt2_annotated.txt -o ./figures/mouse.liver.subnet.mt1.mt2.annotated.svg

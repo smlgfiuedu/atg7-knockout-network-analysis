@@ -1,0 +1,2490 @@
+
+-----------------------------------------------------------------------------
+- Banjo                        Bayesian Network Inference with Java Objects -
+- Release 2.2.0                                                 15 Apr 2008 -
+- Licensed from Duke University                                             -
+- Copyright (c) 2005-08 by Alexander J. Hartemink                           -
+- All rights reserved                                                       -
+-----------------------------------------------------------------------------
+- Project:                                          mouse liver microarray 1h
+- User:                                                      samanthagonzales
+- Dataset:                                            221-vars-6-observations
+- Notes:                                    static bayesian network inference
+-----------------------------------------------------------------------------
+
+Network score: -609.7951, found by thread 6
+221
+  0 5 56 68 121 147 194
+  1 5 36 39 84 120 161
+  2 5 45 99 158 177 206
+  3 5 2 51 150 162 206
+  4 5 29 59 120 123 132
+  5 4 22 149 186 208
+  6 5 101 106 129 146 164
+  7 5 73 108 139 155 211
+  8 5 9 111 112 130 145
+  9 5 33 34 99 101 104
+ 10 5 18 77 144 159 220
+ 11 5 110 130 142 195 205
+ 12 5 104 145 149 186 208
+ 13 5 33 55 101 138 206
+ 14 5 2 33 104 124 132
+ 15 4 110 166 202 211
+ 16 5 7 15 38 142 190
+ 17 1 115
+ 18 5 14 69 132 172 173
+ 19 5 39 82 160 188 196
+ 20 5 9 27 86 119 217
+ 21 5 15 43 142 166 215
+ 22 4 55 123 177 208
+ 23 5 3 91 96 115 125
+ 24 5 3 40 59 69 186
+ 25 5 20 46 60 74 81
+ 26 5 33 44 81 131 174
+ 27 5 24 120 138 159 166
+ 28 5 55 81 132 143 150
+ 29 5 65 104 145 180 202
+ 30 5 34 44 74 104 107
+ 31 5 30 96 131 151 180
+ 32 5 51 67 114 147 183
+ 33 5 12 22 55 107 177
+ 34 5 22 51 55 123 213
+ 35 5 115 126 134 202 211
+ 36 5 12 39 51 91 161
+ 37 5 40 97 102 104 188
+ 38 5 83 115 134 139 202
+ 39 5 22 34 162 195 211
+ 40 2 202 211
+ 41 4 52 63 64 109
+ 42 5 67 92 145 183 208
+ 43 4 52 63 64 215
+ 44 5 49 105 124 132 220
+ 45 5 22 34 51 101 113
+ 46 5 3 82 86 181 216
+ 47 5 11 45 51 107 145
+ 48 1 182
+ 49 5 36 45 65 69 206
+ 50 5 59 84 113 155 208
+ 51 5 22 123 192 206 213
+ 52 2 63 109
+ 53 5 41 43 109 121 215
+ 54 5 13 17 23 134 188
+ 55 3 123 177 206
+ 56 1 121
+ 57 5 61 110 171 202 216
+ 58 5 57 134 142 155 171
+ 59 5 104 113 158 202 209
+ 60 5 18 75 82 96 178
+ 61 3 89 147 171
+ 62 5 22 104 135 162 213
+ 63 1 109
+ 64 3 52 63 109
+ 65 5 36 39 120 135 161
+ 66 5 8 45 71 101 213
+ 67 5 22 99 100 104 192
+ 68 3 56 121 194
+ 69 5 145 158 159 206 209
+ 70 5 27 98 124 143 158
+ 71 5 51 107 123 135 158
+ 72 5 66 111 113 198 209
+ 73 5 38 40 83 108 139
+ 74 5 120 132 178 208 211
+ 75 5 15 163 166 202 209
+ 76 5 9 27 51 101 128
+ 77 5 81 124 167 192 203
+ 78 5 44 105 143 165 178
+ 79 5 3 113 160 163 202
+ 80 5 50 76 190 198 220
+ 81 5 36 93 132 170 206
+ 82 5 28 36 59 97 166
+ 83 1 139
+ 84 5 24 101 202 208 213
+ 85 4 56 68 121 194
+ 86 5 14 91 142 151 198
+ 87 5 0 56 85 140 171
+ 88 5 50 75 159 163 217
+ 89 5 64 114 167 191 215
+ 90 5 1 6 88 168 204
+ 91 5 2 24 84 134 192
+ 92 5 9 101 114 183 189
+ 93 5 13 29 50 74 161
+ 94 5 12 46 76 98 129
+ 95 5 59 65 71 105 177
+ 96 5 24 33 59 65 158
+ 97 5 29 49 96 119 120
+ 98 5 36 49 84 97 190
+ 99 4 22 123 177 206
+100 1 12
+101 5 5 113 149 178 198
+102 5 27 59 93 104 178
+103 5 59 94 177 180 217
+104 5 22 99 149 186 206
+105 5 79 132 168 170 195
+106 5 22 76 98 103 156
+107 5 5 55 123 186 206
+108 2 83 139
+109 0
+110 3 40 202 211
+111 4 48 89 116 205
+112 5 5 33 123 186 205
+113 5 33 55 99 104 177
+114 5 99 145 177 183 189
+115 5 27 81 119 163 176
+116 4 48 89 130 205
+117 5 19 68 115 155 166
+118 5 48 116 121 130 205
+119 5 3 74 75 158 161
+120 5 5 55 79 150 159
+121 0
+122 5 39 94 129 148 173
+123 0
+124 5 12 55 99 107 177
+125 5 28 93 98 101 143
+126 5 41 115 127 166 215
+127 5 15 52 115 175 195
+128 5 51 55 119 129 211
+129 5 59 79 124 159 211
+130 3 48 153 205
+131 5 14 34 40 97 119
+132 5 27 39 129 155 213
+133 5 20 39 79 119 148
+134 4 15 110 155 211
+135 5 2 22 55 104 158
+136 5 36 59 102 156 161
+137 5 5 55 189 192 213
+138 5 9 158 172 178 198
+139 5 22 99 194 197 198
+140 5 13 123 178 183 196
+141 5 44 75 151 173 189
+142 5 134 155 195 202 216
+143 5 93 99 138 173 218
+144 5 37 125 128 202 210
+145 5 5 107 123 186 208
+146 5 49 97 101 174 192
+147 5 41 113 135 192 213
+148 5 27 29 30 132 151
+149 5 55 99 177 186 208
+150 5 40 110 145 181 186
+151 5 33 95 102 170 192
+152 5 14 20 158 161 217
+153 2 48 205
+154 5 19 40 85 117 190
+155 4 15 40 110 166
+156 5 59 60 119 145 218
+157 5 13 81 99 143 173
+158 5 5 22 198 206 208
+159 5 5 59 62 104 186
+160 5 12 62 145 150 213
+161 5 5 34 74 162 177
+162 5 5 51 104 158 178
+163 5 113 150 159 177 208
+164 5 37 49 79 105 219
+165 5 33 60 65 204 216
+166 3 40 110 211
+167 5 4 24 49 96 128
+168 5 37 76 134 159 186
+169 5 52 111 116 130 185
+170 5 5 49 159 163 172
+171 1 147
+172 5 9 34 99 162 213
+173 5 4 49 104 158 180
+174 5 46 70 148 172 213
+175 5 15 21 110 115 195
+176 5 26 129 167 204 217
+177 2 123 206
+178 5 113 123 145 186 208
+179 5 15 117 121 194 202
+180 5 3 5 22 65 76
+181 5 33 34 135 145 208
+182 5 67 83 100 177 193
+183 5 9 124 138 141 172
+184 5 77 131 141 156 190
+185 5 43 48 63 116 215
+186 5 22 99 123 177 208
+187 5 16 35 126 127 175
+188 5 79 88 120 166 211
+189 5 9 22 67 138 206
+190 5 3 15 93 160 192
+191 5 32 41 52 109 215
+192 5 101 177 186 198 206
+193 5 64 85 187 194 215
+194 2 56 121
+195 5 40 110 134 155 202
+196 5 55 85 121 208 209
+197 5 22 113 162 192 196
+198 5 22 104 113 124 149
+199 5 63 64 109 185 205
+200 5 15 63 83 110 207
+201 5 5 88 131 173 203
+202 0
+203 5 1 23 102 145 167
+204 5 84 105 142 159 216
+205 1 48
+206 1 123
+207 5 21 126 127 175 216
+208 4 55 123 177 206
+209 5 9 12 135 181 213
+210 5 74 95 151 160 168
+211 5 59 99 135 159 162
+212 5 117 134 154 155 202
+213 5 22 113 124 177 198
+214 5 43 77 120 185 205
+215 4 41 63 64 109
+216 5 74 107 120 124 161
+217 5 24 40 150 157 216
+218 5 4 65 98 128 138
+219 5 60 88 128 135 217
+220 5 28 51 60 163 208
+
+-----------------------------------------------------------------------------
+- Post-processing                                            Influence scores
+-----------------------------------------------------------------------------
+
+Influence score for   (194,0) ->   (0,0)   .0008
+Influence score for   (147,0) ->   (0,0)   -.0001
+Influence score for   (121,0) ->   (0,0)   .0008
+Influence score for  (68,0) ->   (0,0)   .0008
+Influence score for  (56,0) ->   (0,0)   .0008
+Influence score for   (161,0) ->   (1,0)   .0000
+Influence score for   (120,0) ->   (1,0)   .0000
+Influence score for  (84,0) ->   (1,0)   .0000
+Influence score for  (39,0) ->   (1,0)   .0000
+Influence score for  (36,0) ->   (1,0)   .0000
+Influence score for   (206,0) ->   (2,0)   .0614
+Influence score for   (177,0) ->   (2,0)   .0614
+Influence score for   (158,0) ->   (2,0)   .0614
+Influence score for  (99,0) ->   (2,0)   .0614
+Influence score for  (45,0) ->   (2,0)   .0614
+Influence score for   (206,0) ->   (3,0)   .0620
+Influence score for   (162,0) ->   (3,0)   .1239
+Influence score for   (150,0) ->   (3,0)   .1247
+Influence score for  (51,0) ->   (3,0)   .0620
+Influence score for   (2,0) ->   (3,0)   .0620
+Influence score for   (132,0) ->   (4,0)   .0000
+Influence score for   (123,0) ->   (4,0)   .0431
+Influence score for   (120,0) ->   (4,0)   .0000
+Influence score for  (59,0) ->   (4,0)   .0000
+Influence score for  (29,0) ->   (4,0)   .0000
+Influence score for   (208,0) ->   (5,0)   .1206
+Influence score for   (186,0) ->   (5,0)   .1206
+Influence score for   (149,0) ->   (5,0)   .1206
+Influence score for  (22,0) ->   (5,0)   .1206
+Influence score for   (164,0) ->   (6,0)   .0000
+Influence score for   (146,0) ->   (6,0)   .0000
+Influence score for   (129,0) ->   (6,0)   .0000
+Influence score for   (106,0) ->   (6,0)   .0000
+Influence score for   (101,0) ->   (6,0)   .0185
+Influence score for   (211,0) ->   (7,0)   .0209
+Influence score for   (155,0) ->   (7,0)   .0209
+Influence score for   (139,0) ->   (7,0)   .0621
+Influence score for   (108,0) ->   (7,0)   .0621
+Influence score for  (73,0) ->   (7,0)   .0000
+Influence score for   (145,0) ->   (8,0)   .0620
+Influence score for   (130,0) ->   (8,0)   .0831
+Influence score for   (112,0) ->   (8,0)   .0000
+Influence score for   (111,0) ->   (8,0)   .0212
+Influence score for   (9,0) ->   (8,0)   .0620
+Influence score for   (104,0) ->   (9,0)   .0614
+Influence score for   (101,0) ->   (9,0)   .0614
+Influence score for  (99,0) ->   (9,0)   .0614
+Influence score for  (34,0) ->   (9,0)   .0614
+Influence score for  (33,0) ->   (9,0)   .0614
+Influence score for   (220,0) ->  (10,0)   .0000
+Influence score for   (159,0) ->  (10,0)   .0000
+Influence score for   (144,0) ->  (10,0)   .0000
+Influence score for  (77,0) ->  (10,0)   .0000
+Influence score for  (18,0) ->  (10,0)   .0000
+Influence score for   (205,0) ->  (11,0)   .0623
+Influence score for   (195,0) ->  (11,0)   .0623
+Influence score for   (142,0) ->  (11,0)   .0623
+Influence score for   (130,0) ->  (11,0)   .0623
+Influence score for   (110,0) ->  (11,0)   .0623
+Influence score for   (208,0) ->  (12,0)   .0614
+Influence score for   (186,0) ->  (12,0)   .0614
+Influence score for   (149,0) ->  (12,0)   .0614
+Influence score for   (145,0) ->  (12,0)   .0614
+Influence score for   (104,0) ->  (12,0)   .0614
+Influence score for   (206,0) ->  (13,0)   .0614
+Influence score for   (138,0) ->  (13,0)   .0614
+Influence score for   (101,0) ->  (13,0)   .0614
+Influence score for  (55,0) ->  (13,0)   .0614
+Influence score for  (33,0) ->  (13,0)   .0614
+Influence score for   (132,0) ->  (14,0)   .1870
+Influence score for   (124,0) ->  (14,0)   .0620
+Influence score for   (104,0) ->  (14,0)   .0620
+Influence score for  (33,0) ->  (14,0)   .0620
+Influence score for   (2,0) ->  (14,0)   .0620
+Influence score for   (211,0) ->  (15,0)   .1206
+Influence score for   (202,0) ->  (15,0)   .1206
+Influence score for   (166,0) ->  (15,0)   .1206
+Influence score for   (110,0) ->  (15,0)   .1206
+Influence score for   (190,0) ->  (16,0)   .0139
+Influence score for   (142,0) ->  (16,0)   .0554
+Influence score for  (38,0) ->  (16,0)   .0000
+Influence score for  (15,0) ->  (16,0)   .0139
+Influence score for   (7,0) ->  (16,0)   .0000
+Influence score for   (115,0) ->  (17,0)   .1212
+Influence score for   (173,0) ->  (18,0)   .0000
+Influence score for   (172,0) ->  (18,0)   .0431
+Influence score for   (132,0) ->  (18,0)   .0000
+Influence score for  (69,0) ->  (18,0)   .0000
+Influence score for  (14,0) ->  (18,0)   .0000
+Influence score for   (196,0) ->  (19,0)   .0000
+Influence score for   (188,0) ->  (19,0)   .0000
+Influence score for   (160,0) ->  (19,0)   .0000
+Influence score for  (82,0) ->  (19,0)   .0000
+Influence score for  (39,0) ->  (19,0)   .0000
+Influence score for   (217,0) ->  (20,0)   .0000
+Influence score for   (119,0) ->  (20,0)   .0000
+Influence score for  (86,0) ->  (20,0)   .0000
+Influence score for  (27,0) ->  (20,0)   .0000
+Influence score for   (9,0) ->  (20,0)   .0185
+Influence score for   (215,0) ->  (21,0)   .0926
+Influence score for   (166,0) ->  (21,0)   .0320
+Influence score for   (142,0) ->  (21,0)   .0320
+Influence score for  (43,0) ->  (21,0)   .0926
+Influence score for  (15,0) ->  (21,0)   .0320
+Influence score for   (208,0) ->  (22,0)   .1206
+Influence score for   (177,0) ->  (22,0)   .1206
+Influence score for   (123,0) ->  (22,0)   .1206
+Influence score for  (55,0) ->  (22,0)   .1206
+Influence score for   (125,0) ->  (23,0)   .0000
+Influence score for   (115,0) ->  (23,0)   .0309
+Influence score for  (96,0) ->  (23,0)   .0000
+Influence score for  (91,0) ->  (23,0)   .0000
+Influence score for   (3,0) ->  (23,0)   .0000
+Influence score for   (186,0) ->  (24,0)   .0463
+Influence score for  (69,0) ->  (24,0)   .0000
+Influence score for  (59,0) ->  (24,0)   .0000
+Influence score for  (40,0) ->  (24,0)   .0093
+Influence score for   (3,0) ->  (24,0)   .0000
+Influence score for  (81,0) ->  (25,0)   .0000
+Influence score for  (74,0) ->  (25,0)   .0000
+Influence score for  (60,0) ->  (25,0)   .0000
+Influence score for  (46,0) ->  (25,0)   .0000
+Influence score for  (20,0) ->  (25,0)   .0000
+Influence score for   (174,0) ->  (26,0)   .0000
+Influence score for   (131,0) ->  (26,0)   .0000
+Influence score for  (81,0) ->  (26,0)   .0000
+Influence score for  (44,0) ->  (26,0)   .0000
+Influence score for  (33,0) ->  (26,0)   .0185
+Influence score for   (166,0) ->  (27,0)   .0277
+Influence score for   (159,0) ->  (27,0)   .0000
+Influence score for   (138,0) ->  (27,0)   .0553
+Influence score for   (120,0) ->  (27,0)   .0000
+Influence score for  (24,0) ->  (27,0)   .0000
+Influence score for   (150,0) ->  (28,0)   .0000
+Influence score for   (143,0) ->  (28,0)   .0000
+Influence score for   (132,0) ->  (28,0)   .0000
+Influence score for  (81,0) ->  (28,0)   .0000
+Influence score for  (55,0) ->  (28,0)   .0185
+Influence score for   (202,0) ->  (29,0)   .0277
+Influence score for   (180,0) ->  (29,0)   .0000
+Influence score for   (145,0) ->  (29,0)   .0414
+Influence score for   (104,0) ->  (29,0)   .0414
+Influence score for  (65,0) ->  (29,0)   .0000
+Influence score for   (107,0) ->  (30,0)   .0414
+Influence score for   (104,0) ->  (30,0)   .0830
+Influence score for  (74,0) ->  (30,0)   .0000
+Influence score for  (44,0) ->  (30,0)   .0000
+Influence score for  (34,0) ->  (30,0)   .0414
+Influence score for   (180,0) ->  (31,0)   .0000
+Influence score for   (151,0) ->  (31,0)   .0000
+Influence score for   (131,0) ->  (31,0)   .0000
+Influence score for  (96,0) ->  (31,0)   .0000
+Influence score for  (30,0) ->  (31,0)   .0000
+Influence score for   (183,0) ->  (32,0)   .0000
+Influence score for   (147,0) ->  (32,0)   .0001
+Influence score for   (114,0) ->  (32,0)   .0000
+Influence score for  (67,0) ->  (32,0)   .0000
+Influence score for  (51,0) ->  (32,0)   .0094
+Influence score for   (177,0) ->  (33,0)   .0614
+Influence score for   (107,0) ->  (33,0)   .0614
+Influence score for  (55,0) ->  (33,0)   .0614
+Influence score for  (22,0) ->  (33,0)   .0614
+Influence score for  (12,0) ->  (33,0)   .0614
+Influence score for   (213,0) ->  (34,0)   .0614
+Influence score for   (123,0) ->  (34,0)   .0614
+Influence score for  (55,0) ->  (34,0)   .0614
+Influence score for  (51,0) ->  (34,0)   .0614
+Influence score for  (22,0) ->  (34,0)   .0614
+Influence score for   (211,0) ->  (35,0)   .0212
+Influence score for   (202,0) ->  (35,0)   .0212
+Influence score for   (134,0) ->  (35,0)   .0415
+Influence score for   (126,0) ->  (35,0)   .0000
+Influence score for   (115,0) ->  (35,0)   .0212
+Influence score for   (161,0) ->  (36,0)   .0000
+Influence score for  (91,0) ->  (36,0)   .0000
+Influence score for  (51,0) ->  (36,0)   .0554
+Influence score for  (39,0) ->  (36,0)   .0000
+Influence score for  (12,0) ->  (36,0)   .0277
+Influence score for   (188,0) ->  (37,0)   .0000
+Influence score for   (104,0) ->  (37,0)   .0369
+Influence score for   (102,0) ->  (37,0)   .0000
+Influence score for  (97,0) ->  (37,0)   .0000
+Influence score for  (40,0) ->  (37,0)   .0093
+Influence score for   (202,0) ->  (38,0)   .0314
+Influence score for   (139,0) ->  (38,0)   .0929
+Influence score for   (134,0) ->  (38,0)   .0314
+Influence score for   (115,0) ->  (38,0)   .0314
+Influence score for  (83,0) ->  (38,0)   .0929
+Influence score for   (211,0) ->  (39,0)   .0926
+Influence score for   (195,0) ->  (39,0)   .0926
+Influence score for   (162,0) ->  (39,0)   .0320
+Influence score for  (34,0) ->  (39,0)   .0320
+Influence score for  (22,0) ->  (39,0)   .0320
+Influence score for   (211,0) ->  (40,0)   .4381
+Influence score for   (202,0) ->  (40,0)   .4381
+Influence score for   (109,0) ->  (41,0)   .1206
+Influence score for  (64,0) ->  (41,0)   .1206
+Influence score for  (63,0) ->  (41,0)   .1206
+Influence score for  (52,0) ->  (41,0)   .1206
+Influence score for   (208,0) ->  (42,0)   .0833
+Influence score for   (183,0) ->  (42,0)   .0000
+Influence score for   (145,0) ->  (42,0)   .0462
+Influence score for  (92,0) ->  (42,0)   .0000
+Influence score for  (67,0) ->  (42,0)   .0000
+Influence score for   (215,0) ->  (43,0)   .1206
+Influence score for  (64,0) ->  (43,0)   .1206
+Influence score for  (63,0) ->  (43,0)   .1206
+Influence score for  (52,0) ->  (43,0)   .1206
+Influence score for   (220,0) ->  (44,0)   .0000
+Influence score for   (132,0) ->  (44,0)   .0000
+Influence score for   (124,0) ->  (44,0)   .0370
+Influence score for   (105,0) ->  (44,0)   .0000
+Influence score for  (49,0) ->  (44,0)   .0000
+Influence score for   (113,0) ->  (45,0)   .0614
+Influence score for   (101,0) ->  (45,0)   .0614
+Influence score for  (51,0) ->  (45,0)   .0614
+Influence score for  (34,0) ->  (45,0)   .0614
+Influence score for  (22,0) ->  (45,0)   .0614
+Influence score for   (216,0) ->  (46,0)   .0093
+Influence score for   (181,0) ->  (46,0)   .0648
+Influence score for  (86,0) ->  (46,0)   .0000
+Influence score for  (82,0) ->  (46,0)   .0000
+Influence score for   (3,0) ->  (46,0)   .0000
+Influence score for   (145,0) ->  (47,0)   .0925
+Influence score for   (107,0) ->  (47,0)   .0925
+Influence score for  (51,0) ->  (47,0)   .0925
+Influence score for  (45,0) ->  (47,0)   .0925
+Influence score for  (11,0) ->  (47,0)   .0319
+Influence score for   (182,0) ->  (48,0)   .8250
+Influence score for   (206,0) ->  (49,0)   .0555
+Influence score for  (69,0) ->  (49,0)   .0000
+Influence score for  (65,0) ->  (49,0)   .0000
+Influence score for  (45,0) ->  (49,0)   .0277
+Influence score for  (36,0) ->  (49,0)   .0000
+Influence score for   (208,0) ->  (50,0)   .0414
+Influence score for   (155,0) ->  (50,0)   .0140
+Influence score for   (113,0) ->  (50,0)   .0690
+Influence score for  (84,0) ->  (50,0)   .0000
+Influence score for  (59,0) ->  (50,0)   .0000
+Influence score for   (213,0) ->  (51,0)   .0614
+Influence score for   (206,0) ->  (51,0)   .0614
+Influence score for   (192,0) ->  (51,0)   .0614
+Influence score for   (123,0) ->  (51,0)   .0614
+Influence score for  (22,0) ->  (51,0)   .0614
+Influence score for   (109,0) ->  (52,0)   .4381
+Influence score for  (63,0) ->  (52,0)   .4381
+Influence score for   (215,0) ->  (53,0)   .0623
+Influence score for   (121,0) ->  (53,0)   .0623
+Influence score for   (109,0) ->  (53,0)   .0623
+Influence score for  (43,0) ->  (53,0)   .0623
+Influence score for  (41,0) ->  (53,0)   .0623
+Influence score for   (188,0) ->  (54,0)   .0000
+Influence score for   (134,0) ->  (54,0)   .2203
+Influence score for  (23,0) ->  (54,0)   .0000
+Influence score for  (17,0) ->  (54,0)   .0000
+Influence score for  (13,0) ->  (54,0)   .0554
+Influence score for   (206,0) ->  (55,0)   .2331
+Influence score for   (177,0) ->  (55,0)   .2331
+Influence score for   (123,0) ->  (55,0)   .2331
+Influence score for   (121,0) ->  (56,0)   .7879
+Influence score for   (216,0) ->  (57,0)   .0314
+Influence score for   (202,0) ->  (57,0)   .0314
+Influence score for   (171,0) ->  (57,0)   .0929
+Influence score for   (110,0) ->  (57,0)   .0314
+Influence score for  (61,0) ->  (57,0)   .0929
+Influence score for   (171,0) ->  (58,0)   .0621
+Influence score for   (155,0) ->  (58,0)   .0209
+Influence score for   (142,0) ->  (58,0)   .0209
+Influence score for   (134,0) ->  (58,0)   .0209
+Influence score for  (57,0) ->  (58,0)   .0000
+Influence score for   (209,0) ->  (59,0)   .0926
+Influence score for   (202,0) ->  (59,0)   .0320
+Influence score for   (158,0) ->  (59,0)   .0926
+Influence score for   (113,0) ->  (59,0)   .0926
+Influence score for   (104,0) ->  (59,0)   .0926
+Influence score for   (178,0) ->  (60,0)   .0679
+Influence score for  (96,0) ->  (60,0)   .0000
+Influence score for  (82,0) ->  (60,0)   .0000
+Influence score for  (75,0) ->  (60,0)   .0000
+Influence score for  (18,0) ->  (60,0)   .0000
+Influence score for   (171,0) ->  (61,0)   .4575
+Influence score for   (147,0) ->  (61,0)   .4575
+Influence score for  (89,0) ->  (61,0)   .0000
+Influence score for   (213,0) ->  (62,0)   .0614
+Influence score for   (162,0) ->  (62,0)   .0614
+Influence score for   (135,0) ->  (62,0)   .0614
+Influence score for   (104,0) ->  (62,0)   .0614
+Influence score for  (22,0) ->  (62,0)   .0614
+Influence score for   (109,0) ->  (63,0)   .7879
+Influence score for   (109,0) ->  (64,0)   .2331
+Influence score for  (63,0) ->  (64,0)   .2331
+Influence score for  (52,0) ->  (64,0)   .2331
+Influence score for   (161,0) ->  (65,0)   .0000
+Influence score for   (135,0) ->  (65,0)   .0369
+Influence score for   (120,0) ->  (65,0)   .0000
+Influence score for  (39,0) ->  (65,0)   .0000
+Influence score for  (36,0) ->  (65,0)   .0000
+Influence score for   (213,0) ->  (66,0)   .0620
+Influence score for   (101,0) ->  (66,0)   .0620
+Influence score for  (71,0) ->  (66,0)   .0620
+Influence score for  (45,0) ->  (66,0)   .0620
+Influence score for   (8,0) ->  (66,0)   .0623
+Influence score for   (192,0) ->  (67,0)   .0620
+Influence score for   (104,0) ->  (67,0)   .1239
+Influence score for   (100,0) ->  (67,0)   .1247
+Influence score for  (99,0) ->  (67,0)   .0620
+Influence score for  (22,0) ->  (67,0)   .0620
+Influence score for   (194,0) ->  (68,0)   .2331
+Influence score for   (121,0) ->  (68,0)   .2331
+Influence score for  (56,0) ->  (68,0)   .2331
+Influence score for   (209,0) ->  (69,0)   .0620
+Influence score for   (206,0) ->  (69,0)   .1239
+Influence score for   (159,0) ->  (69,0)   .1247
+Influence score for   (158,0) ->  (69,0)   .0620
+Influence score for   (145,0) ->  (69,0)   .0620
+Influence score for   (158,0) ->  (70,0)   .0833
+Influence score for   (143,0) ->  (70,0)   .0000
+Influence score for   (124,0) ->  (70,0)   .0462
+Influence score for  (98,0) ->  (70,0)   .0000
+Influence score for  (27,0) ->  (70,0)   .0000
+Influence score for   (158,0) ->  (71,0)   .0614
+Influence score for   (135,0) ->  (71,0)   .0614
+Influence score for   (123,0) ->  (71,0)   .0614
+Influence score for   (107,0) ->  (71,0)   .0614
+Influence score for  (51,0) ->  (71,0)   .0614
+Influence score for   (209,0) ->  (72,0)   .0620
+Influence score for   (198,0) ->  (72,0)   .0620
+Influence score for   (113,0) ->  (72,0)   .0620
+Influence score for   (111,0) ->  (72,0)   .0212
+Influence score for  (66,0) ->  (72,0)   .0000
+Influence score for   (139,0) ->  (73,0)   .0621
+Influence score for   (108,0) ->  (73,0)   .0621
+Influence score for  (83,0) ->  (73,0)   .0621
+Influence score for  (40,0) ->  (73,0)   .0209
+Influence score for  (38,0) ->  (73,0)   .0000
+Influence score for   (211,0) ->  (74,0)   .0140
+Influence score for   (208,0) ->  (74,0)   .0414
+Influence score for   (178,0) ->  (74,0)   .0692
+Influence score for   (132,0) ->  (74,0)   .0000
+Influence score for   (120,0) ->  (74,0)   .0000
+Influence score for   (209,0) ->  (75,0)   .0620
+Influence score for   (202,0) ->  (75,0)   .0212
+Influence score for   (166,0) ->  (75,0)   .0835
+Influence score for   (163,0) ->  (75,0)   .0000
+Influence score for  (15,0) ->  (75,0)   .0212
+Influence score for   (128,0) ->  (76,0)   .0000
+Influence score for   (101,0) ->  (76,0)   .0414
+Influence score for  (51,0) ->  (76,0)   .0829
+Influence score for  (27,0) ->  (76,0)   .0000
+Influence score for   (9,0) ->  (76,0)   .0414
+Influence score for   (203,0) ->  (77,0)   .0000
+Influence score for   (192,0) ->  (77,0)   .0368
+Influence score for   (167,0) ->  (77,0)   .0000
+Influence score for   (124,0) ->  (77,0)   .0277
+Influence score for  (81,0) ->  (77,0)   .0000
+Influence score for   (178,0) ->  (78,0)   .0679
+Influence score for   (165,0) ->  (78,0)   .0000
+Influence score for   (143,0) ->  (78,0)   .0000
+Influence score for   (105,0) ->  (78,0)   .0000
+Influence score for  (44,0) ->  (78,0)   .0000
+Influence score for   (202,0) ->  (79,0)   .0185
+Influence score for   (163,0) ->  (79,0)   .0000
+Influence score for   (160,0) ->  (79,0)   .0000
+Influence score for   (113,0) ->  (79,0)   .0277
+Influence score for   (3,0) ->  (79,0)   .0000
+Influence score for   (220,0) ->  (80,0)   .0000
+Influence score for   (198,0) ->  (80,0)   .0277
+Influence score for   (190,0) ->  (80,0)   .0278
+Influence score for  (76,0) ->  (80,0)   .0000
+Influence score for  (50,0) ->  (80,0)   .0000
+Influence score for   (206,0) ->  (81,0)   .0679
+Influence score for   (170,0) ->  (81,0)   .0000
+Influence score for   (132,0) ->  (81,0)   .0000
+Influence score for  (93,0) ->  (81,0)   .0000
+Influence score for  (36,0) ->  (81,0)   .0000
+Influence score for   (166,0) ->  (82,0)   .0308
+Influence score for  (97,0) ->  (82,0)   .0000
+Influence score for  (59,0) ->  (82,0)   .0000
+Influence score for  (36,0) ->  (82,0)   .0000
+Influence score for  (28,0) ->  (82,0)   .0000
+Influence score for   (139,0) ->  (83,0)   .8444
+Influence score for   (213,0) ->  (84,0)   .0620
+Influence score for   (208,0) ->  (84,0)   .0620
+Influence score for   (202,0) ->  (84,0)   .0212
+Influence score for   (101,0) ->  (84,0)   .0620
+Influence score for  (24,0) ->  (84,0)   .0000
+Influence score for   (194,0) ->  (85,0)   .1206
+Influence score for   (121,0) ->  (85,0)   .1206
+Influence score for  (68,0) ->  (85,0)   .1206
+Influence score for  (56,0) ->  (85,0)   .1206
+Influence score for   (198,0) ->  (86,0)   .0740
+Influence score for   (151,0) ->  (86,0)   .0000
+Influence score for   (142,0) ->  (86,0)   .0278
+Influence score for  (91,0) ->  (86,0)   .0000
+Influence score for  (14,0) ->  (86,0)   .0000
+Influence score for   (171,0) ->  (87,0)   -.0414
+Influence score for   (140,0) ->  (87,0)   .0000
+Influence score for  (85,0) ->  (87,0)   .0621
+Influence score for  (56,0) ->  (87,0)   .0621
+Influence score for   (0,0) ->  (87,0)   .0208
+Influence score for   (217,0) ->  (88,0)   .0000
+Influence score for   (163,0) ->  (88,0)   .0000
+Influence score for   (159,0) ->  (88,0)   .0000
+Influence score for  (75,0) ->  (88,0)   .0000
+Influence score for  (50,0) ->  (88,0)   .0000
+Influence score for   (215,0) ->  (89,0)   .0370
+Influence score for   (191,0) ->  (89,0)   .0000
+Influence score for   (167,0) ->  (89,0)   .0277
+Influence score for   (114,0) ->  (89,0)   .0000
+Influence score for  (64,0) ->  (89,0)   .0553
+Influence score for   (204,0) ->  (90,0)   .0000
+Influence score for   (168,0) ->  (90,0)   .0000
+Influence score for  (88,0) ->  (90,0)   .0000
+Influence score for   (6,0) ->  (90,0)   .0000
+Influence score for   (1,0) ->  (90,0)   .0000
+Influence score for   (192,0) ->  (91,0)   .0414
+Influence score for   (134,0) ->  (91,0)   .0279
+Influence score for  (84,0) ->  (91,0)   .0000
+Influence score for  (24,0) ->  (91,0)   .0000
+Influence score for   (2,0) ->  (91,0)   .0414
+Influence score for   (189,0) ->  (92,0)   .0000
+Influence score for   (183,0) ->  (92,0)   .0000
+Influence score for   (114,0) ->  (92,0)   .0000
+Influence score for   (101,0) ->  (92,0)   .0277
+Influence score for   (9,0) ->  (92,0)   .0277
+Influence score for   (161,0) ->  (93,0)   .0000
+Influence score for  (74,0) ->  (93,0)   .0000
+Influence score for  (50,0) ->  (93,0)   .0000
+Influence score for  (29,0) ->  (93,0)   .0000
+Influence score for  (13,0) ->  (93,0)   .0185
+Influence score for   (129,0) ->  (94,0)   .0000
+Influence score for  (98,0) ->  (94,0)   .0000
+Influence score for  (76,0) ->  (94,0)   .0000
+Influence score for  (46,0) ->  (94,0)   .0000
+Influence score for  (12,0) ->  (94,0)   .0185
+Influence score for   (177,0) ->  (95,0)   .0833
+Influence score for   (105,0) ->  (95,0)   .0000
+Influence score for  (71,0) ->  (95,0)   .0462
+Influence score for  (65,0) ->  (95,0)   .0000
+Influence score for  (59,0) ->  (95,0)   .0000
+Influence score for   (158,0) ->  (96,0)   .0555
+Influence score for  (65,0) ->  (96,0)   .0000
+Influence score for  (59,0) ->  (96,0)   .0000
+Influence score for  (33,0) ->  (96,0)   .0277
+Influence score for  (24,0) ->  (96,0)   .0000
+Influence score for   (120,0) ->  (97,0)   .0000
+Influence score for   (119,0) ->  (97,0)   .0000
+Influence score for  (96,0) ->  (97,0)   .0000
+Influence score for  (49,0) ->  (97,0)   .0000
+Influence score for  (29,0) ->  (97,0)   .0000
+Influence score for   (190,0) ->  (98,0)   .0308
+Influence score for  (97,0) ->  (98,0)   .0000
+Influence score for  (84,0) ->  (98,0)   .0000
+Influence score for  (49,0) ->  (98,0)   .0000
+Influence score for  (36,0) ->  (98,0)   .0000
+Influence score for   (206,0) ->  (99,0)   .1206
+Influence score for   (177,0) ->  (99,0)   .1206
+Influence score for   (123,0) ->  (99,0)   .1206
+Influence score for  (22,0) ->  (99,0)   .1206
+Influence score for  (12,0) ->   (100,0)   .6970
+Influence score for   (198,0) ->   (101,0)   .0614
+Influence score for   (178,0) ->   (101,0)   .0614
+Influence score for   (149,0) ->   (101,0)   .0614
+Influence score for   (113,0) ->   (101,0)   .0614
+Influence score for   (5,0) ->   (101,0)   .0614
+Influence score for   (178,0) ->   (102,0)   .0277
+Influence score for   (104,0) ->   (102,0)   .0738
+Influence score for  (93,0) ->   (102,0)   .0000
+Influence score for  (59,0) ->   (102,0)   .0000
+Influence score for  (27,0) ->   (102,0)   .0000
+Influence score for   (217,0) ->   (103,0)   .0000
+Influence score for   (180,0) ->   (103,0)   .0000
+Influence score for   (177,0) ->   (103,0)   .0370
+Influence score for  (94,0) ->   (103,0)   .0000
+Influence score for  (59,0) ->   (103,0)   .0000
+Influence score for   (206,0) ->   (104,0)   .0614
+Influence score for   (186,0) ->   (104,0)   .0614
+Influence score for   (149,0) ->   (104,0)   .0614
+Influence score for  (99,0) ->   (104,0)   .0614
+Influence score for  (22,0) ->   (104,0)   .0614
+Influence score for   (195,0) ->   (105,0)   .0308
+Influence score for   (170,0) ->   (105,0)   .0000
+Influence score for   (168,0) ->   (105,0)   .0000
+Influence score for   (132,0) ->   (105,0)   .0000
+Influence score for  (79,0) ->   (105,0)   .0000
+Influence score for   (156,0) ->   (106,0)   .0000
+Influence score for   (103,0) ->   (106,0)   .0000
+Influence score for  (98,0) ->   (106,0)   .0000
+Influence score for  (76,0) ->   (106,0)   .0000
+Influence score for  (22,0) ->   (106,0)   .0185
+Influence score for   (206,0) ->   (107,0)   .0614
+Influence score for   (186,0) ->   (107,0)   .0614
+Influence score for   (123,0) ->   (107,0)   .0614
+Influence score for  (55,0) ->   (107,0)   .0614
+Influence score for   (5,0) ->   (107,0)   .0614
+Influence score for   (139,0) ->   (108,0)   .4575
+Influence score for  (83,0) ->   (108,0)   .4575
+Influence score for   (211,0) ->   (110,0)   .2331
+Influence score for   (202,0) ->   (110,0)   .2331
+Influence score for  (40,0) ->   (110,0)   .2331
+Influence score for   (205,0) ->   (111,0)   .2331
+Influence score for   (116,0) ->   (111,0)   .4939
+Influence score for  (89,0) ->   (111,0)   .0000
+Influence score for  (48,0) ->   (111,0)   .2331
+Influence score for   (205,0) ->   (112,0)   .0926
+Influence score for   (186,0) ->   (112,0)   .0320
+Influence score for   (123,0) ->   (112,0)   .0320
+Influence score for  (33,0) ->   (112,0)   .0320
+Influence score for   (5,0) ->   (112,0)   .0320
+Influence score for   (177,0) ->   (113,0)   .0614
+Influence score for   (104,0) ->   (113,0)   .0614
+Influence score for  (99,0) ->   (113,0)   .0614
+Influence score for  (55,0) ->   (113,0)   .0614
+Influence score for  (33,0) ->   (113,0)   .0614
+Influence score for   (189,0) ->   (114,0)   .0000
+Influence score for   (183,0) ->   (114,0)   .0000
+Influence score for   (177,0) ->   (114,0)   .0140
+Influence score for   (145,0) ->   (114,0)   .0140
+Influence score for  (99,0) ->   (114,0)   .0140
+Influence score for   (176,0) ->   (115,0)   .0000
+Influence score for   (163,0) ->   (115,0)   .0000
+Influence score for   (119,0) ->   (115,0)   .0000
+Influence score for  (81,0) ->   (115,0)   .0000
+Influence score for  (27,0) ->   (115,0)   .0000
+Influence score for   (205,0) ->   (116,0)   .2331
+Influence score for   (130,0) ->   (116,0)   .4939
+Influence score for  (89,0) ->   (116,0)   .0000
+Influence score for  (48,0) ->   (116,0)   .2331
+Influence score for   (166,0) ->   (117,0)   .0620
+Influence score for   (155,0) ->   (117,0)   .0620
+Influence score for   (115,0) ->   (117,0)   .0620
+Influence score for  (68,0) ->   (117,0)   .0212
+Influence score for  (19,0) ->   (117,0)   .0000
+Influence score for   (205,0) ->   (118,0)   .0926
+Influence score for   (130,0) ->   (118,0)   .0926
+Influence score for   (121,0) ->   (118,0)   .0320
+Influence score for   (116,0) ->   (118,0)   .0926
+Influence score for  (48,0) ->   (118,0)   .0926
+Influence score for   (161,0) ->   (119,0)   .0000
+Influence score for   (158,0) ->   (119,0)   .0431
+Influence score for  (75,0) ->   (119,0)   .0000
+Influence score for  (74,0) ->   (119,0)   .0000
+Influence score for   (3,0) ->   (119,0)   .0000
+Influence score for   (159,0) ->   (120,0)   .0000
+Influence score for   (150,0) ->   (120,0)   .0000
+Influence score for  (79,0) ->   (120,0)   .0000
+Influence score for  (55,0) ->   (120,0)   .0277
+Influence score for   (5,0) ->   (120,0)   .0277
+Influence score for   (173,0) ->   (122,0)   .0000
+Influence score for   (148,0) ->   (122,0)   .0000
+Influence score for   (129,0) ->   (122,0)   .0000
+Influence score for  (94,0) ->   (122,0)   .0000
+Influence score for  (39,0) ->   (122,0)   .0000
+Influence score for   (177,0) ->   (124,0)   .0614
+Influence score for   (107,0) ->   (124,0)   .0614
+Influence score for  (99,0) ->   (124,0)   .0614
+Influence score for  (55,0) ->   (124,0)   .0614
+Influence score for  (12,0) ->   (124,0)   .0614
+Influence score for   (143,0) ->   (125,0)   .0000
+Influence score for   (101,0) ->   (125,0)   .0431
+Influence score for  (98,0) ->   (125,0)   .0000
+Influence score for  (93,0) ->   (125,0)   .0000
+Influence score for  (28,0) ->   (125,0)   .0000
+Influence score for   (215,0) ->   (126,0)   .0620
+Influence score for   (166,0) ->   (126,0)   .0627
+Influence score for   (127,0) ->   (126,0)   .0000
+Influence score for   (115,0) ->   (126,0)   .0212
+Influence score for  (41,0) ->   (126,0)   .0620
+Influence score for   (195,0) ->   (127,0)   .0623
+Influence score for   (175,0) ->   (127,0)   .0000
+Influence score for   (115,0) ->   (127,0)   .0212
+Influence score for  (52,0) ->   (127,0)   .0620
+Influence score for  (15,0) ->   (127,0)   .0212
+Influence score for   (211,0) ->   (128,0)   .0277
+Influence score for   (129,0) ->   (128,0)   .0000
+Influence score for   (119,0) ->   (128,0)   .0000
+Influence score for  (55,0) ->   (128,0)   .0414
+Influence score for  (51,0) ->   (128,0)   .0414
+Influence score for   (211,0) ->   (129,0)   .0277
+Influence score for   (159,0) ->   (129,0)   .0000
+Influence score for   (124,0) ->   (129,0)   .0553
+Influence score for  (79,0) ->   (129,0)   .0000
+Influence score for  (59,0) ->   (129,0)   .0000
+Influence score for   (205,0) ->   (130,0)   .2331
+Influence score for   (153,0) ->   (130,0)   .2331
+Influence score for  (48,0) ->   (130,0)   .2331
+Influence score for   (119,0) ->   (131,0)   .0000
+Influence score for  (97,0) ->   (131,0)   .0000
+Influence score for  (40,0) ->   (131,0)   .0093
+Influence score for  (34,0) ->   (131,0)   .0277
+Influence score for  (14,0) ->   (131,0)   .0000
+Influence score for   (213,0) ->   (132,0)   .0277
+Influence score for   (155,0) ->   (132,0)   .0463
+Influence score for   (129,0) ->   (132,0)   .0000
+Influence score for  (39,0) ->   (132,0)   .0000
+Influence score for  (27,0) ->   (132,0)   .0000
+Influence score for   (148,0) ->   (133,0)   .0000
+Influence score for   (119,0) ->   (133,0)   .0000
+Influence score for  (79,0) ->   (133,0)   .0000
+Influence score for  (39,0) ->   (133,0)   .0000
+Influence score for  (20,0) ->   (133,0)   .0000
+Influence score for   (211,0) ->   (134,0)   .1206
+Influence score for   (155,0) ->   (134,0)   .1206
+Influence score for   (110,0) ->   (134,0)   .1206
+Influence score for  (15,0) ->   (134,0)   .1206
+Influence score for   (158,0) ->   (135,0)   .0614
+Influence score for   (104,0) ->   (135,0)   .0614
+Influence score for  (55,0) ->   (135,0)   .0614
+Influence score for  (22,0) ->   (135,0)   .0614
+Influence score for   (2,0) ->   (135,0)   .0614
+Influence score for   (161,0) ->   (136,0)   .0000
+Influence score for   (156,0) ->   (136,0)   .0000
+Influence score for   (102,0) ->   (136,0)   .0000
+Influence score for  (59,0) ->   (136,0)   .0000
+Influence score for  (36,0) ->   (136,0)   .0000
+Influence score for   (213,0) ->   (137,0)   .0620
+Influence score for   (192,0) ->   (137,0)   .1239
+Influence score for   (189,0) ->   (137,0)   .1247
+Influence score for  (55,0) ->   (137,0)   .0620
+Influence score for   (5,0) ->   (137,0)   .0620
+Influence score for   (198,0) ->   (138,0)   .0614
+Influence score for   (178,0) ->   (138,0)   .0614
+Influence score for   (172,0) ->   (138,0)   .0614
+Influence score for   (158,0) ->   (138,0)   .0614
+Influence score for   (9,0) ->   (138,0)   .0614
+Influence score for   (198,0) ->   (139,0)   .0840
+Influence score for   (197,0) ->   (139,0)   .0000
+Influence score for   (194,0) ->   (139,0)   .0416
+Influence score for  (99,0) ->   (139,0)   .0416
+Influence score for  (22,0) ->   (139,0)   .0416
+Influence score for   (196,0) ->   (140,0)   .0000
+Influence score for   (183,0) ->   (140,0)   .0831
+Influence score for   (178,0) ->   (140,0)   .0142
+Influence score for   (123,0) ->   (140,0)   .0142
+Influence score for  (13,0) ->   (140,0)   .0142
+Influence score for   (189,0) ->   (141,0)   .0123
+Influence score for   (173,0) ->   (141,0)   .0000
+Influence score for   (151,0) ->   (141,0)   .0000
+Influence score for  (75,0) ->   (141,0)   .0000
+Influence score for  (44,0) ->   (141,0)   .0000
+Influence score for   (216,0) ->   (142,0)   .0614
+Influence score for   (202,0) ->   (142,0)   .0614
+Influence score for   (195,0) ->   (142,0)   .0614
+Influence score for   (155,0) ->   (142,0)   .0614
+Influence score for   (134,0) ->   (142,0)   .0614
+Influence score for   (218,0) ->   (143,0)   .0000
+Influence score for   (173,0) ->   (143,0)   .0000
+Influence score for   (138,0) ->   (143,0)   .0277
+Influence score for  (99,0) ->   (143,0)   .0277
+Influence score for  (93,0) ->   (143,0)   .0000
+Influence score for   (210,0) ->   (144,0)   .0000
+Influence score for   (202,0) ->   (144,0)   .0309
+Influence score for   (128,0) ->   (144,0)   .0000
+Influence score for   (125,0) ->   (144,0)   .0000
+Influence score for  (37,0) ->   (144,0)   .0000
+Influence score for   (208,0) ->   (145,0)   .0614
+Influence score for   (186,0) ->   (145,0)   .0614
+Influence score for   (123,0) ->   (145,0)   .0614
+Influence score for   (107,0) ->   (145,0)   .0614
+Influence score for   (5,0) ->   (145,0)   .0614
+Influence score for   (192,0) ->   (146,0)   .0833
+Influence score for   (174,0) ->   (146,0)   .0000
+Influence score for   (101,0) ->   (146,0)   .0462
+Influence score for  (97,0) ->   (146,0)   .0000
+Influence score for  (49,0) ->   (146,0)   .0000
+Influence score for   (213,0) ->   (147,0)   .0623
+Influence score for   (192,0) ->   (147,0)   .0623
+Influence score for   (135,0) ->   (147,0)   .0623
+Influence score for   (113,0) ->   (147,0)   .0623
+Influence score for  (41,0) ->   (147,0)   .0623
+Influence score for   (151,0) ->   (148,0)   .0000
+Influence score for   (132,0) ->   (148,0)   .0000
+Influence score for  (30,0) ->   (148,0)   .0000
+Influence score for  (29,0) ->   (148,0)   .0000
+Influence score for  (27,0) ->   (148,0)   .0000
+Influence score for   (208,0) ->   (149,0)   .0614
+Influence score for   (186,0) ->   (149,0)   .0614
+Influence score for   (177,0) ->   (149,0)   .0614
+Influence score for  (99,0) ->   (149,0)   .0614
+Influence score for  (55,0) ->   (149,0)   .0614
+Influence score for   (186,0) ->   (150,0)   .0926
+Influence score for   (181,0) ->   (150,0)   .0926
+Influence score for   (145,0) ->   (150,0)   .0926
+Influence score for   (110,0) ->   (150,0)   .0320
+Influence score for  (40,0) ->   (150,0)   .0320
+Influence score for   (192,0) ->   (151,0)   .0463
+Influence score for   (170,0) ->   (151,0)   .0000
+Influence score for   (102,0) ->   (151,0)   .0000
+Influence score for  (95,0) ->   (151,0)   .0000
+Influence score for  (33,0) ->   (151,0)   .0277
+Influence score for   (217,0) ->   (152,0)   .0000
+Influence score for   (161,0) ->   (152,0)   .0000
+Influence score for   (158,0) ->   (152,0)   .0370
+Influence score for  (20,0) ->   (152,0)   .0000
+Influence score for  (14,0) ->   (152,0)   .0000
+Influence score for   (205,0) ->   (153,0)   .4381
+Influence score for  (48,0) ->   (153,0)   .4381
+Influence score for   (190,0) ->   (154,0)   .0558
+Influence score for   (117,0) ->   (154,0)   .0000
+Influence score for  (85,0) ->   (154,0)   .0414
+Influence score for  (40,0) ->   (154,0)   .0140
+Influence score for  (19,0) ->   (154,0)   .0000
+Influence score for   (166,0) ->   (155,0)   .1206
+Influence score for   (110,0) ->   (155,0)   .1206
+Influence score for  (40,0) ->   (155,0)   .1206
+Influence score for  (15,0) ->   (155,0)   .1206
+Influence score for   (218,0) ->   (156,0)   .0000
+Influence score for   (145,0) ->   (156,0)   .0431
+Influence score for   (119,0) ->   (156,0)   .0000
+Influence score for  (60,0) ->   (156,0)   .0000
+Influence score for  (59,0) ->   (156,0)   .0000
+Influence score for   (173,0) ->   (157,0)   .0000
+Influence score for   (143,0) ->   (157,0)   .0000
+Influence score for  (99,0) ->   (157,0)   .0368
+Influence score for  (81,0) ->   (157,0)   .0000
+Influence score for  (13,0) ->   (157,0)   .0277
+Influence score for   (208,0) ->   (158,0)   .0614
+Influence score for   (206,0) ->   (158,0)   .0614
+Influence score for   (198,0) ->   (158,0)   .0614
+Influence score for  (22,0) ->   (158,0)   .0614
+Influence score for   (5,0) ->   (158,0)   .0614
+Influence score for   (186,0) ->   (159,0)   .0620
+Influence score for   (104,0) ->   (159,0)   .0620
+Influence score for  (62,0) ->   (159,0)   .1040
+Influence score for  (59,0) ->   (159,0)   .1247
+Influence score for   (5,0) ->   (159,0)   .0620
+Influence score for   (213,0) ->   (160,0)   .1248
+Influence score for   (150,0) ->   (160,0)   .1247
+Influence score for   (145,0) ->   (160,0)   .0620
+Influence score for  (62,0) ->   (160,0)   .0620
+Influence score for  (12,0) ->   (160,0)   .0620
+Influence score for   (177,0) ->   (161,0)   .0620
+Influence score for   (162,0) ->   (161,0)   .1239
+Influence score for  (74,0) ->   (161,0)   .1247
+Influence score for  (34,0) ->   (161,0)   .0620
+Influence score for   (5,0) ->   (161,0)   .0620
+Influence score for   (178,0) ->   (162,0)   .0614
+Influence score for   (158,0) ->   (162,0)   .0614
+Influence score for   (104,0) ->   (162,0)   .0614
+Influence score for  (51,0) ->   (162,0)   .0614
+Influence score for   (5,0) ->   (162,0)   .0614
+Influence score for   (208,0) ->   (163,0)   .0414
+Influence score for   (177,0) ->   (163,0)   .0830
+Influence score for   (159,0) ->   (163,0)   .0000
+Influence score for   (150,0) ->   (163,0)   .0000
+Influence score for   (113,0) ->   (163,0)   .0414
+Influence score for   (219,0) ->   (164,0)   .0000
+Influence score for   (105,0) ->   (164,0)   .0000
+Influence score for  (79,0) ->   (164,0)   .0000
+Influence score for  (49,0) ->   (164,0)   .0000
+Influence score for  (37,0) ->   (164,0)   .0000
+Influence score for   (216,0) ->   (165,0)   .0277
+Influence score for   (204,0) ->   (165,0)   .0000
+Influence score for  (65,0) ->   (165,0)   .0000
+Influence score for  (60,0) ->   (165,0)   .0000
+Influence score for  (33,0) ->   (165,0)   .0277
+Influence score for   (211,0) ->   (166,0)   .2331
+Influence score for   (110,0) ->   (166,0)   .2331
+Influence score for  (40,0) ->   (166,0)   .2331
+Influence score for   (128,0) ->   (167,0)   .0000
+Influence score for  (96,0) ->   (167,0)   .0000
+Influence score for  (49,0) ->   (167,0)   .0000
+Influence score for  (24,0) ->   (167,0)   .0000
+Influence score for   (4,0) ->   (167,0)   .0000
+Influence score for   (186,0) ->   (168,0)   .0740
+Influence score for   (159,0) ->   (168,0)   .0000
+Influence score for   (134,0) ->   (168,0)   .0278
+Influence score for  (76,0) ->   (168,0)   .0000
+Influence score for  (37,0) ->   (168,0)   .0000
+Influence score for   (185,0) ->   (169,0)   .0000
+Influence score for   (130,0) ->   (169,0)   .0620
+Influence score for   (116,0) ->   (169,0)   .0620
+Influence score for   (111,0) ->   (169,0)   .0620
+Influence score for  (52,0) ->   (169,0)   .0212
+Influence score for   (172,0) ->   (170,0)   .0463
+Influence score for   (163,0) ->   (170,0)   .0000
+Influence score for   (159,0) ->   (170,0)   .0000
+Influence score for  (49,0) ->   (170,0)   .0000
+Influence score for   (5,0) ->   (170,0)   .0277
+Influence score for   (147,0) ->   (171,0)   .8444
+Influence score for   (213,0) ->   (172,0)   .0614
+Influence score for   (162,0) ->   (172,0)   .0614
+Influence score for  (99,0) ->   (172,0)   .0614
+Influence score for  (34,0) ->   (172,0)   .0614
+Influence score for   (9,0) ->   (172,0)   .0614
+Influence score for   (180,0) ->   (173,0)   .0000
+Influence score for   (158,0) ->   (173,0)   .0277
+Influence score for   (104,0) ->   (173,0)   .0462
+Influence score for  (49,0) ->   (173,0)   .0000
+Influence score for   (4,0) ->   (173,0)   .0000
+Influence score for   (213,0) ->   (174,0)   .0277
+Influence score for   (172,0) ->   (174,0)   .0738
+Influence score for   (148,0) ->   (174,0)   .0000
+Influence score for  (70,0) ->   (174,0)   .0000
+Influence score for  (46,0) ->   (174,0)   .0000
+Influence score for   (195,0) ->   (175,0)   .0212
+Influence score for   (115,0) ->   (175,0)   .0212
+Influence score for   (110,0) ->   (175,0)   .0415
+Influence score for  (21,0) ->   (175,0)   .0000
+Influence score for  (15,0) ->   (175,0)   .0212
+Influence score for   (217,0) ->   (176,0)   .0000
+Influence score for   (204,0) ->   (176,0)   .0000
+Influence score for   (167,0) ->   (176,0)   .0000
+Influence score for   (129,0) ->   (176,0)   .0000
+Influence score for  (26,0) ->   (176,0)   .0000
+Influence score for   (206,0) ->   (177,0)   .4381
+Influence score for   (123,0) ->   (177,0)   .4381
+Influence score for   (208,0) ->   (178,0)   .0614
+Influence score for   (186,0) ->   (178,0)   .0614
+Influence score for   (145,0) ->   (178,0)   .0614
+Influence score for   (123,0) ->   (178,0)   .0614
+Influence score for   (113,0) ->   (178,0)   .0614
+Influence score for   (202,0) ->   (179,0)   .0212
+Influence score for   (194,0) ->   (179,0)   .0620
+Influence score for   (121,0) ->   (179,0)   .1248
+Influence score for   (117,0) ->   (179,0)   .0000
+Influence score for  (15,0) ->   (179,0)   .0212
+Influence score for  (76,0) ->   (180,0)   .0000
+Influence score for  (65,0) ->   (180,0)   .0000
+Influence score for  (22,0) ->   (180,0)   .0277
+Influence score for   (5,0) ->   (180,0)   .0277
+Influence score for   (3,0) ->   (180,0)   .0000
+Influence score for   (208,0) ->   (181,0)   .0614
+Influence score for   (145,0) ->   (181,0)   .0614
+Influence score for   (135,0) ->   (181,0)   .0614
+Influence score for  (34,0) ->   (181,0)   .0614
+Influence score for  (33,0) ->   (181,0)   .0614
+Influence score for   (193,0) ->   (182,0)   .1109
+Influence score for   (177,0) ->   (182,0)   .0371
+Influence score for   (100,0) ->   (182,0)   .0000
+Influence score for  (83,0) ->   (182,0)   .0001
+Influence score for  (67,0) ->   (182,0)   .0000
+Influence score for   (172,0) ->   (183,0)   .1248
+Influence score for   (141,0) ->   (183,0)   .1247
+Influence score for   (138,0) ->   (183,0)   .0620
+Influence score for   (124,0) ->   (183,0)   .0620
+Influence score for   (9,0) ->   (183,0)   .0620
+Influence score for   (190,0) ->   (184,0)   .0309
+Influence score for   (156,0) ->   (184,0)   .0000
+Influence score for   (141,0) ->   (184,0)   .0185
+Influence score for   (131,0) ->   (184,0)   .0000
+Influence score for  (77,0) ->   (184,0)   .0000
+Influence score for   (215,0) ->   (185,0)   .0320
+Influence score for   (116,0) ->   (185,0)   .0926
+Influence score for  (63,0) ->   (185,0)   .0320
+Influence score for  (48,0) ->   (185,0)   .0926
+Influence score for  (43,0) ->   (185,0)   .0320
+Influence score for   (208,0) ->   (186,0)   .0614
+Influence score for   (177,0) ->   (186,0)   .0614
+Influence score for   (123,0) ->   (186,0)   .0614
+Influence score for  (99,0) ->   (186,0)   .0614
+Influence score for  (22,0) ->   (186,0)   .0614
+Influence score for   (175,0) ->   (187,0)   .0000
+Influence score for   (127,0) ->   (187,0)   .0000
+Influence score for   (126,0) ->   (187,0)   .0000
+Influence score for  (35,0) ->   (187,0)   .0000
+Influence score for  (16,0) ->   (187,0)   .0000
+Influence score for   (211,0) ->   (188,0)   .0093
+Influence score for   (166,0) ->   (188,0)   .0462
+Influence score for   (120,0) ->   (188,0)   .0000
+Influence score for  (88,0) ->   (188,0)   .0000
+Influence score for  (79,0) ->   (188,0)   .0000
+Influence score for   (206,0) ->   (189,0)   .0620
+Influence score for   (138,0) ->   (189,0)   .1239
+Influence score for  (67,0) ->   (189,0)   .1247
+Influence score for  (22,0) ->   (189,0)   .0620
+Influence score for   (9,0) ->   (189,0)   .0620
+Influence score for   (192,0) ->   (190,0)   .0371
+Influence score for   (160,0) ->   (190,0)   .0000
+Influence score for  (93,0) ->   (190,0)   .0000
+Influence score for  (15,0) ->   (190,0)   .0368
+Influence score for   (3,0) ->   (190,0)   .0000
+Influence score for   (215,0) ->   (191,0)   .0212
+Influence score for   (109,0) ->   (191,0)   .0212
+Influence score for  (52,0) ->   (191,0)   .0212
+Influence score for  (41,0) ->   (191,0)   .0212
+Influence score for  (32,0) ->   (191,0)   .0000
+Influence score for   (206,0) ->   (192,0)   .0614
+Influence score for   (198,0) ->   (192,0)   .0614
+Influence score for   (186,0) ->   (192,0)   .0614
+Influence score for   (177,0) ->   (192,0)   .0614
+Influence score for   (101,0) ->   (192,0)   .0614
+Influence score for   (215,0) ->   (193,0)   .0215
+Influence score for   (194,0) ->   (193,0)   .1654
+Influence score for   (187,0) ->   (193,0)   .1244
+Influence score for  (85,0) ->   (193,0)   .1031
+Influence score for  (64,0) ->   (193,0)   .0215
+Influence score for   (121,0) ->   (194,0)   .4381
+Influence score for  (56,0) ->   (194,0)   .4381
+Influence score for   (202,0) ->   (195,0)   .0614
+Influence score for   (155,0) ->   (195,0)   .0614
+Influence score for   (134,0) ->   (195,0)   .0614
+Influence score for   (110,0) ->   (195,0)   .0614
+Influence score for  (40,0) ->   (195,0)   .0614
+Influence score for   (209,0) ->   (196,0)   .0320
+Influence score for   (208,0) ->   (196,0)   .0320
+Influence score for   (121,0) ->   (196,0)   .0926
+Influence score for  (85,0) ->   (196,0)   .0926
+Influence score for  (55,0) ->   (196,0)   .0320
+Influence score for   (196,0) ->   (197,0)   .0000
+Influence score for   (192,0) ->   (197,0)   .0620
+Influence score for   (162,0) ->   (197,0)   .0620
+Influence score for   (113,0) ->   (197,0)   .0620
+Influence score for  (22,0) ->   (197,0)   .0620
+Influence score for   (149,0) ->   (198,0)   .0614
+Influence score for   (124,0) ->   (198,0)   .0614
+Influence score for   (113,0) ->   (198,0)   .0614
+Influence score for   (104,0) ->   (198,0)   .0614
+Influence score for  (22,0) ->   (198,0)   .0614
+Influence score for   (205,0) ->   (199,0)   .0840
+Influence score for   (185,0) ->   (199,0)   .0000
+Influence score for   (109,0) ->   (199,0)   .0620
+Influence score for  (64,0) ->   (199,0)   .0620
+Influence score for  (63,0) ->   (199,0)   .0620
+Influence score for   (207,0) ->   (200,0)   .0000
+Influence score for   (110,0) ->   (200,0)   .0417
+Influence score for  (83,0) ->   (200,0)   .0829
+Influence score for  (63,0) ->   (200,0)   .0417
+Influence score for  (15,0) ->   (200,0)   .0417
+Influence score for   (203,0) ->   (201,0)   .0000
+Influence score for   (173,0) ->   (201,0)   .0000
+Influence score for   (131,0) ->   (201,0)   .0000
+Influence score for  (88,0) ->   (201,0)   .0000
+Influence score for   (5,0) ->   (201,0)   .0185
+Influence score for   (167,0) ->   (203,0)   .0000
+Influence score for   (145,0) ->   (203,0)   .0431
+Influence score for   (102,0) ->   (203,0)   .0000
+Influence score for  (23,0) ->   (203,0)   .0000
+Influence score for   (1,0) ->   (203,0)   .0000
+Influence score for   (216,0) ->   (204,0)   .0370
+Influence score for   (159,0) ->   (204,0)   .0000
+Influence score for   (142,0) ->   (204,0)   .0186
+Influence score for   (105,0) ->   (204,0)   .0000
+Influence score for  (84,0) ->   (204,0)   .0000
+Influence score for  (48,0) ->   (205,0)   .7879
+Influence score for   (123,0) ->   (206,0)   .7879
+Influence score for   (216,0) ->   (207,0)   .0492
+Influence score for   (175,0) ->   (207,0)   .0000
+Influence score for   (127,0) ->   (207,0)   .0000
+Influence score for   (126,0) ->   (207,0)   .0000
+Influence score for  (21,0) ->   (207,0)   .0000
+Influence score for   (206,0) ->   (208,0)   .1206
+Influence score for   (177,0) ->   (208,0)   .1206
+Influence score for   (123,0) ->   (208,0)   .1206
+Influence score for  (55,0) ->   (208,0)   .1206
+Influence score for   (213,0) ->   (209,0)   .0614
+Influence score for   (181,0) ->   (209,0)   .0614
+Influence score for   (135,0) ->   (209,0)   .0614
+Influence score for  (12,0) ->   (209,0)   .0614
+Influence score for   (9,0) ->   (209,0)   .0614
+Influence score for   (168,0) ->   (210,0)   .0000
+Influence score for   (160,0) ->   (210,0)   .0000
+Influence score for   (151,0) ->   (210,0)   .0000
+Influence score for  (95,0) ->   (210,0)   .0000
+Influence score for  (74,0) ->   (210,0)   .0000
+Influence score for   (162,0) ->   (211,0)   .0558
+Influence score for   (159,0) ->   (211,0)   .0000
+Influence score for   (135,0) ->   (211,0)   .0003
+Influence score for  (99,0) ->   (211,0)   .0003
+Influence score for  (59,0) ->   (211,0)   .0000
+Influence score for   (202,0) ->   (212,0)   .0414
+Influence score for   (155,0) ->   (212,0)   .0555
+Influence score for   (154,0) ->   (212,0)   .0000
+Influence score for   (134,0) ->   (212,0)   .0414
+Influence score for   (117,0) ->   (212,0)   .0000
+Influence score for   (198,0) ->   (213,0)   .0614
+Influence score for   (177,0) ->   (213,0)   .0614
+Influence score for   (124,0) ->   (213,0)   .0614
+Influence score for   (113,0) ->   (213,0)   .0614
+Influence score for  (22,0) ->   (213,0)   .0614
+Influence score for   (205,0) ->   (214,0)   .1476
+Influence score for   (185,0) ->   (214,0)   .0000
+Influence score for   (120,0) ->   (214,0)   .0000
+Influence score for  (77,0) ->   (214,0)   .0000
+Influence score for  (43,0) ->   (214,0)   .0553
+Influence score for   (109,0) ->   (215,0)   .1206
+Influence score for  (64,0) ->   (215,0)   .1206
+Influence score for  (63,0) ->   (215,0)   .1206
+Influence score for  (41,0) ->   (215,0)   .1206
+Influence score for   (161,0) ->   (216,0)   .0000
+Influence score for   (124,0) ->   (216,0)   .0001
+Influence score for   (120,0) ->   (216,0)   .0000
+Influence score for   (107,0) ->   (216,0)   .0001
+Influence score for  (74,0) ->   (216,0)   .0000
+Influence score for   (216,0) ->   (217,0)   .0277
+Influence score for   (157,0) ->   (217,0)   .0000
+Influence score for   (150,0) ->   (217,0)   .0000
+Influence score for  (40,0) ->   (217,0)   .0093
+Influence score for  (24,0) ->   (217,0)   .0000
+Influence score for   (138,0) ->   (218,0)   .0679
+Influence score for   (128,0) ->   (218,0)   .0000
+Influence score for  (98,0) ->   (218,0)   .0000
+Influence score for  (65,0) ->   (218,0)   .0000
+Influence score for   (4,0) ->   (218,0)   .0000
+Influence score for   (217,0) ->   (219,0)   .0000
+Influence score for   (135,0) ->   (219,0)   .0431
+Influence score for   (128,0) ->   (219,0)   .0000
+Influence score for  (88,0) ->   (219,0)   .0000
+Influence score for  (60,0) ->   (219,0)   .0000
+Influence score for   (208,0) ->   (220,0)   .0555
+Influence score for   (163,0) ->   (220,0)   .0000
+Influence score for  (60,0) ->   (220,0)   .0000
+Influence score for  (51,0) ->   (220,0)   .0277
+Influence score for  (28,0) ->   (220,0)   .0000
+
+-----------------------------------------------------------------------------
+- Post-processing                                  DOT graphics format output
+-----------------------------------------------------------------------------
+
+digraph abstract { 
+
+label = "Banjo Version 2.2.0\nHigh scoring network, score: -609.7951\nProject: mouse liver microarray 1h\nUser: samanthagonzales\nDataset: 221-vars-6-observations"; 
+labeljust="l"; 
+
+    0 [label="Experiment"];
+    1 [label="1100001G20Rik"];
+    2 [label="1190003J15Rik"];
+    3 [label="2610028H24Rik"];
+    4 [label="2810002N01Rik"];
+    5 [label="2810007J24Rik"];
+    6 [label="6330406I15Rik"];
+    7 [label="A730011L01Rik"];
+    8 [label="Aadac"];
+    9 [label="Aass"];
+    10 [label="Abcd3"];
+    11 [label="Abhd4"];
+    12 [label="Acaa1a"];
+    13 [label="Acaa2"];
+    14 [label="Acox1"];
+    15 [label="Adh1"];
+    16 [label="Adipor2"];
+    17 [label="Adk"];
+    18 [label="Afm"];
+    19 [label="Agxt"];
+    20 [label="Ahsg"];
+    21 [label="Akr1c6"];
+    22 [label="Alas1"];
+    23 [label="Aldh1l1"];
+    24 [label="Aldob"];
+    25 [label="Ambp"];
+    26 [label="Apoa2"];
+    27 [label="Apob"];
+    28 [label="Apoc1"];
+    29 [label="Apoc3"];
+    30 [label="Apoe"];
+    31 [label="Apoh"];
+    32 [label="Apol9b"];
+    33 [label="Ass1"];
+    34 [label="Atp5b"];
+    35 [label="Azgp1"];
+    36 [label="C3"];
+    37 [label="C8g"];
+    38 [label="Car3"];
+    39 [label="Cbr1"];
+    40 [label="Cbr3"];
+    41 [label="Ces3"];
+    42 [label="Chchd10"];
+    43 [label="Cml1"];
+    44 [label="COX3"];
+    45 [label="Cpamd8"];
+    46 [label="Csf3r"];
+    47 [label="CU041261.1"];
+    48 [label="Cxcl10"];
+    49 [label="Cxcl11"];
+    50 [label="Cyb5"];
+    51 [label="Cyp2b10"];
+    52 [label="Cyp2c29"];
+    53 [label="Cyp2c50"];
+    54 [label="Cyp2c54"];
+    55 [label="Cyp2c67"];
+    56 [label="Cyp2c68"];
+    57 [label="Cyp2d10"];
+    58 [label="Cyp2d11"];
+    59 [label="Cyp2d26"];
+    60 [label="Cyp2e1"];
+    61 [label="Cyp3a11"];
+    62 [label="Cyp3a16"];
+    63 [label="Cyp4a10"];
+    64 [label="Cyp4a14"];
+    65 [label="CYTB"];
+    66 [label="Dbi"];
+    67 [label="Ddt"];
+    68 [label="Dgat2"];
+    69 [label="Ebp"];
+    70 [label="EG667601"];
+    71 [label="Elk1"];
+    72 [label="Errfi1"];
+    73 [label="Es1"];
+    74 [label="Es31"];
+    75 [label="Etfb"];
+    76 [label="F10"];
+    77 [label="F2"];
+    78 [label="Fabp1"];
+    79 [label="Fbp1"];
+    80 [label="Fetub"];
+    81 [label="Fgb"];
+    82 [label="Fgg"];
+    83 [label="Fmo3"];
+    84 [label="Fn1"];
+    85 [label="Gabarapl1"];
+    86 [label="Gc"];
+    87 [label="Gclc"];
+    88 [label="Gla"];
+    89 [label="Gm10639"];
+    90 [label="Gm11808"];
+    91 [label="Gm13202"];
+    92 [label="Gm13637"];
+    93 [label="Gm15393"];
+    94 [label="Gm2073"];
+    95 [label="Gm2528"];
+    96 [label="Gm2911"];
+    97 [label="Gm4415"];
+    98 [label="Gm4720"];
+    99 [label="Gm5265"];
+    100 [label="Gm6222"];
+    101 [label="Gm6428"];
+    102 [label="Gm6837"];
+    103 [label="Gm7792"];
+    104 [label="Gm8566"];
+    105 [label="Gm885"];
+    106 [label="Gm9444"];
+    107 [label="Gnmt"];
+    108 [label="Got1"];
+    109 [label="Gpx1"];
+    110 [label="Gpx4"];
+    111 [label="Gsta1"];
+    112 [label="Gsta2"];
+    113 [label="Gsta3"];
+    114 [label="Gstm1"];
+    115 [label="Gstm2"];
+    116 [label="Gstm3"];
+    117 [label="Gstp1"];
+    118 [label="Gstp2"];
+    119 [label="Gstz1"];
+    120 [label="H2-gs10"];
+    121 [label="Hamp2"];
+    122 [label="Hccs"];
+    123 [label="Hnf4a"];
+    124 [label="Hpd"];
+    125 [label="Hrg"];
+    126 [label="Hsd11b1"];
+    127 [label="Inmt"];
+    128 [label="Itih4"];
+    129 [label="Kng1"];
+    130 [label="Krt18"];
+    131 [label="LOC100045061"];
+    132 [label="LOC100189605"];
+    133 [label="LOC100316870"];
+    134 [label="Ly6d"];
+    135 [label="Mat1a"];
+    136 [label="Mosc2"];
+    137 [label="Mt1"];
+    138 [label="Mt2"];
+    139 [label="Mt3"];
+    140 [label="Mt4"];
+    141 [label="Mtf1"];
+    142 [label="Mtif2"];
+    143 [label="Mug1"];
+    144 [label="Mup2"];
+    145 [label="Mup3"];
+    146 [label="Mup4"];
+    147 [label="Mup5"];
+    148 [label="Mup9"];
+    149 [label="ND2"];
+    150 [label="ND4"];
+    151 [label="Ndor1"];
+    152 [label="Ndrg2"];
+    153 [label="Oasl1"];
+    154 [label="Oat"];
+    155 [label="Pah"];
+    156 [label="Pck1"];
+    157 [label="Pcyt2"];
+    158 [label="Peci"];
+    159 [label="Phyh"];
+    160 [label="Plg"];
+    161 [label="Pon1"];
+    162 [label="Por"];
+    163 [label="Proc"];
+    164 [label="Pzp"];
+    165 [label="Rdh7"];
+    166 [label="Rgn"];
+    167 [label="Rn18s"];
+    168 [label="Rn4.5s"];
+    169 [label="Rnaset2a"];
+    170 [label="Rpl10"];
+    171 [label="Scp2"];
+    172 [label="Sepp1"];
+    173 [label="Sepx1"];
+    174 [label="Serpina1a"];
+    175 [label="Serpina1d"];
+    176 [label="Serpina1e"];
+    177 [label="Serpina3k"];
+    178 [label="Serpina3m"];
+    179 [label="Serpina6"];
+    180 [label="Slc27a2"];
+    181 [label="Slc27a5"];
+    182 [label="Slc30a1"];
+    183 [label="Slc30a4"];
+    184 [label="Slc30a5"];
+    185 [label="Slc30a6"];
+    186 [label="Slc30a7"];
+    187 [label="Slc30a9"];
+    188 [label="Slc39a1"];
+    189 [label="Slc39a10"];
+    190 [label="Slc39a11"];
+    191 [label="Slc39a13"];
+    192 [label="Slc39a14"];
+    193 [label="Slc39a2"];
+    194 [label="Slc39a3"];
+    195 [label="Slc39a4"];
+    196 [label="Slc39a5"];
+    197 [label="Slc39a6"];
+    198 [label="Slc39a7"];
+    199 [label="Slc39a8"];
+    200 [label="Slc39a9"];
+    201 [label="Slco1b2"];
+    202 [label="Slpi"];
+    203 [label="Sod1"];
+    204 [label="Sord"];
+    205 [label="Srxn1"];
+    206 [label="St3gal5"];
+    207 [label="Taldo1"];
+    208 [label="Tat"];
+    209 [label="Thrsp"];
+    210 [label="Trf"];
+    211 [label="Ttr"];
+    212 [label="Tubb2a"];
+    213 [label="Uba52"];
+    214 [label="Ugdh"];
+    215 [label="Ugt2b38"];
+    216 [label="Uox"];
+    217 [label="Upb1"];
+    218 [label="Vash1"];
+    219 [label="Vtn"];
+    220 [label="Wdr34"];
+
+    56->0;
+    68->0;
+    121->0;
+    147->0;
+    194->0;
+    36->1;
+    39->1;
+    84->1;
+    120->1;
+    161->1;
+    45->2;
+    99->2;
+    158->2;
+    177->2;
+    206->2;
+    2->3;
+    51->3;
+    150->3;
+    162->3;
+    206->3;
+    29->4;
+    59->4;
+    120->4;
+    123->4;
+    132->4;
+    22->5;
+    149->5;
+    186->5;
+    208->5;
+    101->6;
+    106->6;
+    129->6;
+    146->6;
+    164->6;
+    73->7;
+    108->7;
+    139->7;
+    155->7;
+    211->7;
+    9->8;
+    111->8;
+    112->8;
+    130->8;
+    145->8;
+    33->9;
+    34->9;
+    99->9;
+    101->9;
+    104->9;
+    18->10;
+    77->10;
+    144->10;
+    159->10;
+    220->10;
+    110->11;
+    130->11;
+    142->11;
+    195->11;
+    205->11;
+    104->12;
+    145->12;
+    149->12;
+    186->12;
+    208->12;
+    33->13;
+    55->13;
+    101->13;
+    138->13;
+    206->13;
+    2->14;
+    33->14;
+    104->14;
+    124->14;
+    132->14;
+    110->15;
+    166->15;
+    202->15;
+    211->15;
+    7->16;
+    15->16;
+    38->16;
+    142->16;
+    190->16;
+    115->17;
+    14->18;
+    69->18;
+    132->18;
+    172->18;
+    173->18;
+    39->19;
+    82->19;
+    160->19;
+    188->19;
+    196->19;
+    9->20;
+    27->20;
+    86->20;
+    119->20;
+    217->20;
+    15->21;
+    43->21;
+    142->21;
+    166->21;
+    215->21;
+    55->22;
+    123->22;
+    177->22;
+    208->22;
+    3->23;
+    91->23;
+    96->23;
+    115->23;
+    125->23;
+    3->24;
+    40->24;
+    59->24;
+    69->24;
+    186->24;
+    20->25;
+    46->25;
+    60->25;
+    74->25;
+    81->25;
+    33->26;
+    44->26;
+    81->26;
+    131->26;
+    174->26;
+    24->27;
+    120->27;
+    138->27;
+    159->27;
+    166->27;
+    55->28;
+    81->28;
+    132->28;
+    143->28;
+    150->28;
+    65->29;
+    104->29;
+    145->29;
+    180->29;
+    202->29;
+    34->30;
+    44->30;
+    74->30;
+    104->30;
+    107->30;
+    30->31;
+    96->31;
+    131->31;
+    151->31;
+    180->31;
+    51->32;
+    67->32;
+    114->32;
+    147->32;
+    183->32;
+    12->33;
+    22->33;
+    55->33;
+    107->33;
+    177->33;
+    22->34;
+    51->34;
+    55->34;
+    123->34;
+    213->34;
+    115->35;
+    126->35;
+    134->35;
+    202->35;
+    211->35;
+    12->36;
+    39->36;
+    51->36;
+    91->36;
+    161->36;
+    40->37;
+    97->37;
+    102->37;
+    104->37;
+    188->37;
+    83->38;
+    115->38;
+    134->38;
+    139->38;
+    202->38;
+    22->39;
+    34->39;
+    162->39;
+    195->39;
+    211->39;
+    202->40;
+    211->40;
+    52->41;
+    63->41;
+    64->41;
+    109->41;
+    67->42;
+    92->42;
+    145->42;
+    183->42;
+    208->42;
+    52->43;
+    63->43;
+    64->43;
+    215->43;
+    49->44;
+    105->44;
+    124->44;
+    132->44;
+    220->44;
+    22->45;
+    34->45;
+    51->45;
+    101->45;
+    113->45;
+    3->46;
+    82->46;
+    86->46;
+    181->46;
+    216->46;
+    11->47;
+    45->47;
+    51->47;
+    107->47;
+    145->47;
+    182->48;
+    36->49;
+    45->49;
+    65->49;
+    69->49;
+    206->49;
+    59->50;
+    84->50;
+    113->50;
+    155->50;
+    208->50;
+    22->51;
+    123->51;
+    192->51;
+    206->51;
+    213->51;
+    63->52;
+    109->52;
+    41->53;
+    43->53;
+    109->53;
+    121->53;
+    215->53;
+    13->54;
+    17->54;
+    23->54;
+    134->54;
+    188->54;
+    123->55;
+    177->55;
+    206->55;
+    121->56;
+    61->57;
+    110->57;
+    171->57;
+    202->57;
+    216->57;
+    57->58;
+    134->58;
+    142->58;
+    155->58;
+    171->58;
+    104->59;
+    113->59;
+    158->59;
+    202->59;
+    209->59;
+    18->60;
+    75->60;
+    82->60;
+    96->60;
+    178->60;
+    89->61;
+    147->61;
+    171->61;
+    22->62;
+    104->62;
+    135->62;
+    162->62;
+    213->62;
+    109->63;
+    52->64;
+    63->64;
+    109->64;
+    36->65;
+    39->65;
+    120->65;
+    135->65;
+    161->65;
+    8->66;
+    45->66;
+    71->66;
+    101->66;
+    213->66;
+    22->67;
+    99->67;
+    100->67;
+    104->67;
+    192->67;
+    56->68;
+    121->68;
+    194->68;
+    145->69;
+    158->69;
+    159->69;
+    206->69;
+    209->69;
+    27->70;
+    98->70;
+    124->70;
+    143->70;
+    158->70;
+    51->71;
+    107->71;
+    123->71;
+    135->71;
+    158->71;
+    66->72;
+    111->72;
+    113->72;
+    198->72;
+    209->72;
+    38->73;
+    40->73;
+    83->73;
+    108->73;
+    139->73;
+    120->74;
+    132->74;
+    178->74;
+    208->74;
+    211->74;
+    15->75;
+    163->75;
+    166->75;
+    202->75;
+    209->75;
+    9->76;
+    27->76;
+    51->76;
+    101->76;
+    128->76;
+    81->77;
+    124->77;
+    167->77;
+    192->77;
+    203->77;
+    44->78;
+    105->78;
+    143->78;
+    165->78;
+    178->78;
+    3->79;
+    113->79;
+    160->79;
+    163->79;
+    202->79;
+    50->80;
+    76->80;
+    190->80;
+    198->80;
+    220->80;
+    36->81;
+    93->81;
+    132->81;
+    170->81;
+    206->81;
+    28->82;
+    36->82;
+    59->82;
+    97->82;
+    166->82;
+    139->83;
+    24->84;
+    101->84;
+    202->84;
+    208->84;
+    213->84;
+    56->85;
+    68->85;
+    121->85;
+    194->85;
+    14->86;
+    91->86;
+    142->86;
+    151->86;
+    198->86;
+    0->87;
+    56->87;
+    85->87;
+    140->87;
+    171->87;
+    50->88;
+    75->88;
+    159->88;
+    163->88;
+    217->88;
+    64->89;
+    114->89;
+    167->89;
+    191->89;
+    215->89;
+    1->90;
+    6->90;
+    88->90;
+    168->90;
+    204->90;
+    2->91;
+    24->91;
+    84->91;
+    134->91;
+    192->91;
+    9->92;
+    101->92;
+    114->92;
+    183->92;
+    189->92;
+    13->93;
+    29->93;
+    50->93;
+    74->93;
+    161->93;
+    12->94;
+    46->94;
+    76->94;
+    98->94;
+    129->94;
+    59->95;
+    65->95;
+    71->95;
+    105->95;
+    177->95;
+    24->96;
+    33->96;
+    59->96;
+    65->96;
+    158->96;
+    29->97;
+    49->97;
+    96->97;
+    119->97;
+    120->97;
+    36->98;
+    49->98;
+    84->98;
+    97->98;
+    190->98;
+    22->99;
+    123->99;
+    177->99;
+    206->99;
+    12->100;
+    5->101;
+    113->101;
+    149->101;
+    178->101;
+    198->101;
+    27->102;
+    59->102;
+    93->102;
+    104->102;
+    178->102;
+    59->103;
+    94->103;
+    177->103;
+    180->103;
+    217->103;
+    22->104;
+    99->104;
+    149->104;
+    186->104;
+    206->104;
+    79->105;
+    132->105;
+    168->105;
+    170->105;
+    195->105;
+    22->106;
+    76->106;
+    98->106;
+    103->106;
+    156->106;
+    5->107;
+    55->107;
+    123->107;
+    186->107;
+    206->107;
+    83->108;
+    139->108;
+    40->110;
+    202->110;
+    211->110;
+    48->111;
+    89->111;
+    116->111;
+    205->111;
+    5->112;
+    33->112;
+    123->112;
+    186->112;
+    205->112;
+    33->113;
+    55->113;
+    99->113;
+    104->113;
+    177->113;
+    99->114;
+    145->114;
+    177->114;
+    183->114;
+    189->114;
+    27->115;
+    81->115;
+    119->115;
+    163->115;
+    176->115;
+    48->116;
+    89->116;
+    130->116;
+    205->116;
+    19->117;
+    68->117;
+    115->117;
+    155->117;
+    166->117;
+    48->118;
+    116->118;
+    121->118;
+    130->118;
+    205->118;
+    3->119;
+    74->119;
+    75->119;
+    158->119;
+    161->119;
+    5->120;
+    55->120;
+    79->120;
+    150->120;
+    159->120;
+    39->122;
+    94->122;
+    129->122;
+    148->122;
+    173->122;
+    12->124;
+    55->124;
+    99->124;
+    107->124;
+    177->124;
+    28->125;
+    93->125;
+    98->125;
+    101->125;
+    143->125;
+    41->126;
+    115->126;
+    127->126;
+    166->126;
+    215->126;
+    15->127;
+    52->127;
+    115->127;
+    175->127;
+    195->127;
+    51->128;
+    55->128;
+    119->128;
+    129->128;
+    211->128;
+    59->129;
+    79->129;
+    124->129;
+    159->129;
+    211->129;
+    48->130;
+    153->130;
+    205->130;
+    14->131;
+    34->131;
+    40->131;
+    97->131;
+    119->131;
+    27->132;
+    39->132;
+    129->132;
+    155->132;
+    213->132;
+    20->133;
+    39->133;
+    79->133;
+    119->133;
+    148->133;
+    15->134;
+    110->134;
+    155->134;
+    211->134;
+    2->135;
+    22->135;
+    55->135;
+    104->135;
+    158->135;
+    36->136;
+    59->136;
+    102->136;
+    156->136;
+    161->136;
+    5->137;
+    55->137;
+    189->137;
+    192->137;
+    213->137;
+    9->138;
+    158->138;
+    172->138;
+    178->138;
+    198->138;
+    22->139;
+    99->139;
+    194->139;
+    197->139;
+    198->139;
+    13->140;
+    123->140;
+    178->140;
+    183->140;
+    196->140;
+    44->141;
+    75->141;
+    151->141;
+    173->141;
+    189->141;
+    134->142;
+    155->142;
+    195->142;
+    202->142;
+    216->142;
+    93->143;
+    99->143;
+    138->143;
+    173->143;
+    218->143;
+    37->144;
+    125->144;
+    128->144;
+    202->144;
+    210->144;
+    5->145;
+    107->145;
+    123->145;
+    186->145;
+    208->145;
+    49->146;
+    97->146;
+    101->146;
+    174->146;
+    192->146;
+    41->147;
+    113->147;
+    135->147;
+    192->147;
+    213->147;
+    27->148;
+    29->148;
+    30->148;
+    132->148;
+    151->148;
+    55->149;
+    99->149;
+    177->149;
+    186->149;
+    208->149;
+    40->150;
+    110->150;
+    145->150;
+    181->150;
+    186->150;
+    33->151;
+    95->151;
+    102->151;
+    170->151;
+    192->151;
+    14->152;
+    20->152;
+    158->152;
+    161->152;
+    217->152;
+    48->153;
+    205->153;
+    19->154;
+    40->154;
+    85->154;
+    117->154;
+    190->154;
+    15->155;
+    40->155;
+    110->155;
+    166->155;
+    59->156;
+    60->156;
+    119->156;
+    145->156;
+    218->156;
+    13->157;
+    81->157;
+    99->157;
+    143->157;
+    173->157;
+    5->158;
+    22->158;
+    198->158;
+    206->158;
+    208->158;
+    5->159;
+    59->159;
+    62->159;
+    104->159;
+    186->159;
+    12->160;
+    62->160;
+    145->160;
+    150->160;
+    213->160;
+    5->161;
+    34->161;
+    74->161;
+    162->161;
+    177->161;
+    5->162;
+    51->162;
+    104->162;
+    158->162;
+    178->162;
+    113->163;
+    150->163;
+    159->163;
+    177->163;
+    208->163;
+    37->164;
+    49->164;
+    79->164;
+    105->164;
+    219->164;
+    33->165;
+    60->165;
+    65->165;
+    204->165;
+    216->165;
+    40->166;
+    110->166;
+    211->166;
+    4->167;
+    24->167;
+    49->167;
+    96->167;
+    128->167;
+    37->168;
+    76->168;
+    134->168;
+    159->168;
+    186->168;
+    52->169;
+    111->169;
+    116->169;
+    130->169;
+    185->169;
+    5->170;
+    49->170;
+    159->170;
+    163->170;
+    172->170;
+    147->171;
+    9->172;
+    34->172;
+    99->172;
+    162->172;
+    213->172;
+    4->173;
+    49->173;
+    104->173;
+    158->173;
+    180->173;
+    46->174;
+    70->174;
+    148->174;
+    172->174;
+    213->174;
+    15->175;
+    21->175;
+    110->175;
+    115->175;
+    195->175;
+    26->176;
+    129->176;
+    167->176;
+    204->176;
+    217->176;
+    123->177;
+    206->177;
+    113->178;
+    123->178;
+    145->178;
+    186->178;
+    208->178;
+    15->179;
+    117->179;
+    121->179;
+    194->179;
+    202->179;
+    3->180;
+    5->180;
+    22->180;
+    65->180;
+    76->180;
+    33->181;
+    34->181;
+    135->181;
+    145->181;
+    208->181;
+    67->182;
+    83->182;
+    100->182;
+    177->182;
+    193->182;
+    9->183;
+    124->183;
+    138->183;
+    141->183;
+    172->183;
+    77->184;
+    131->184;
+    141->184;
+    156->184;
+    190->184;
+    43->185;
+    48->185;
+    63->185;
+    116->185;
+    215->185;
+    22->186;
+    99->186;
+    123->186;
+    177->186;
+    208->186;
+    16->187;
+    35->187;
+    126->187;
+    127->187;
+    175->187;
+    79->188;
+    88->188;
+    120->188;
+    166->188;
+    211->188;
+    9->189;
+    22->189;
+    67->189;
+    138->189;
+    206->189;
+    3->190;
+    15->190;
+    93->190;
+    160->190;
+    192->190;
+    32->191;
+    41->191;
+    52->191;
+    109->191;
+    215->191;
+    101->192;
+    177->192;
+    186->192;
+    198->192;
+    206->192;
+    64->193;
+    85->193;
+    187->193;
+    194->193;
+    215->193;
+    56->194;
+    121->194;
+    40->195;
+    110->195;
+    134->195;
+    155->195;
+    202->195;
+    55->196;
+    85->196;
+    121->196;
+    208->196;
+    209->196;
+    22->197;
+    113->197;
+    162->197;
+    192->197;
+    196->197;
+    22->198;
+    104->198;
+    113->198;
+    124->198;
+    149->198;
+    63->199;
+    64->199;
+    109->199;
+    185->199;
+    205->199;
+    15->200;
+    63->200;
+    83->200;
+    110->200;
+    207->200;
+    5->201;
+    88->201;
+    131->201;
+    173->201;
+    203->201;
+    1->203;
+    23->203;
+    102->203;
+    145->203;
+    167->203;
+    84->204;
+    105->204;
+    142->204;
+    159->204;
+    216->204;
+    48->205;
+    123->206;
+    21->207;
+    126->207;
+    127->207;
+    175->207;
+    216->207;
+    55->208;
+    123->208;
+    177->208;
+    206->208;
+    9->209;
+    12->209;
+    135->209;
+    181->209;
+    213->209;
+    74->210;
+    95->210;
+    151->210;
+    160->210;
+    168->210;
+    59->211;
+    99->211;
+    135->211;
+    159->211;
+    162->211;
+    117->212;
+    134->212;
+    154->212;
+    155->212;
+    202->212;
+    22->213;
+    113->213;
+    124->213;
+    177->213;
+    198->213;
+    43->214;
+    77->214;
+    120->214;
+    185->214;
+    205->214;
+    41->215;
+    63->215;
+    64->215;
+    109->215;
+    74->216;
+    107->216;
+    120->216;
+    124->216;
+    161->216;
+    24->217;
+    40->217;
+    150->217;
+    157->217;
+    216->217;
+    4->218;
+    65->218;
+    98->218;
+    128->218;
+    138->218;
+    60->219;
+    88->219;
+    128->219;
+    135->219;
+    217->219;
+    28->220;
+    51->220;
+    60->220;
+    163->220;
+    208->220;
+}
+
+
+-----------------------------------------------------------------------------
+(Final Checkpoint, after post-processing) A final check revealed the following issues that were encountered during Banjo's execution:
+-----------------------------------------------------------------------------
+('dot' execution) The attempted execution of 'dot' to create the graphics file '/home/samanthagonzales/mouse_liver/analysis/banjo/output/mouse.liver.1h.ma.top.graph.2023.08.02.17.34.22.svg' did not succeed. No output has been produced.
+

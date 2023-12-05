@@ -1,0 +1,1 @@
+MTF1, MT1, MT2,MT3, MT4, Slc30a1, slc30a4,slc30a5,slc30a6,slc30a7,slc30a9,  Slc39a1, slc39a2, slc39a3, slc39a4,slc39a5,slc39a6,slc39a7,slc39a8,slc39a9,  Slc39a10, slc39a11,slc39a13,slc39a14

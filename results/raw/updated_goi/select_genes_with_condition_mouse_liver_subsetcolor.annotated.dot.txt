@@ -1,0 +1,34 @@
+digraph {
+"Acaa1a" [label="Acaa1a", style="filled", fillcolor="white", color="black"];
+"Cyp2b10" [label="Cyp2b10", style="filled", fillcolor="white", color="black"];
+"Slc39a7" [label="Slc39a7", style="filled", fillcolor="white", color="black"];
+"Aass" [label="Aass", style="filled", fillcolor="white", color="black"];
+"Hnf4a" [label="Hnf4a", style="filled", fillcolor="white", color="black"];
+"Mtf1" [label="Mtf1", style="filled", fillcolor="white", color="black"];
+"Wdr34" [label="Wdr34", style="filled", fillcolor="white", color="black"];
+"Mt1" [label="Mt1", style="filled", fillcolor="white", color="black"];
+"Slc30a1" [label="Slc30a1", style="filled", fillcolor="white", color="black"];
+"Cyp2c50" [label="Cyp2c50", style="filled", fillcolor="white", color="black"];
+"Slc30a10" [label="Slc30a10", style="filled", fillcolor="white", color="black"];
+"Slc39a1" [label="Slc39a1", style="filled", fillcolor="white", color="black"];
+"Gpx4" [label="Gpx4", style="filled", fillcolor="white", color="black"];
+"Slc30a7" [label="Slc30a7", style="filled", fillcolor="white", color="black"];
+"Cyb5" [label="Cyb5", style="filled", fillcolor="white", color="black"];
+"Atg7KO" [label="Atg7KO", style="filled", fillcolor="#ffffb3", color="black", fontname="Calibri-BoldItalic"];
+  edge [dir=forward] "Slc39a7" -> "Cyp2b10" ;
+  edge [dir=forward] "Cyp2b10" -> "Aass" ;
+  edge [dir=forward] "Aass" -> "Hnf4a" ;
+  edge [dir=forward] "Aass" -> "Slc30a7" ;
+  edge [dir=forward] "Slc30a7" -> "Cyb5" ;
+  edge [dir=forward] "Cyp2b10" -> "Mtf1" ;
+  edge [dir=forward] "Hnf4a" -> "Mtf1" ;
+  edge [dir=forward] "Mtf1" -> "Mt1" ;
+  edge [dir=forward] "Mt1" -> "Slc30a1" ;
+  edge [dir=forward] "Slc39a7" -> "Wdr34" ;
+  edge [dir=forward] "Slc30a1" -> "Cyp2c50" ;
+  edge [dir=forward] "Acaa1a" -> "Atg7KO" ;
+  edge [dir=forward] "Cyp2b10" -> "Atg7KO" ;
+  edge [dir=forward] "Cyp2c50" -> "Atg7KO" ;
+  edge [dir=forward] "Slc39a7" -> "Atg7KO" ;
+  edge [dir=forward] "Hnf4a" -> "Slc30a10" ;
+}
