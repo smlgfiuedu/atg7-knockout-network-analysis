@@ -3,3 +3,6 @@
 .RData
 .*/*.RData
 .*/*.Rhistory
+
+notes/
+papers/
